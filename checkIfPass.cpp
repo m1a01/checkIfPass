@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-int imePredmeta;
+int subjectName;
 float assignments=0;
 float colloq1=0;
 float colloq2=0;
@@ -17,10 +17,10 @@ float avgFinal=0;
 
 
 cout << "Choose a subject: "<< endl << "1. PROGRAMMING I," << endl << "2. CONTEMPORARY SOFTWARE TOOLS,"<< endl << "3. MATHEMATICS I I," << endl << "4. INTRODUCTION TO COMPUTERS," << endl << "5. INTRODUCTION TO WEB"<< endl;
-cin >> imePredmeta;
+cin >> subjectName;
 
 
-switch(imePredmeta) {
+switch(subjectName) {
 
 case 1:
 
